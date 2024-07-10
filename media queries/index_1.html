@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        .div{
+            border: 2px solid blue;
+            width: 250px;
+            /* background-color: chartreuse; */
+            background-image: url(../assests/luffy.png);
+
+            /* opacity: 1;  */
+            
+
+        }
+        img{
+            height:100px;
+            width:100px;
+            
+        }
+        
+        @media screen and (min-width:325px) and (max-width:475px){
+            .cl0{
+                border: 2px solid green;
+                padding: 5px;
+                top: 2px;
+                background-color: aqua;
+                position: relative;
+                height: 100px;
+                width: 100px;
+                left: 10px;
+        }
+            .clo{
+                border: 2px solid aquamarine;
+            }
+            .cl1{
+                border: 2px solid blue;
+                padding: 5px;
+                top: 2px;
+                background-color: yellow;
+                position: relative;
+                height: 100px;
+                width: 100px;
+                left: 10px;
+            }
+            .cl2{
+                border: 2px solid cadetblue;
+                padding: 5px;
+                top: 2px;
+                background-color: blueviolet;
+                position: relative;
+                height: 100px;
+                width: 100px;
+                left: 10px;
+                top: 0px;
+            }
+            .cl3{
+                border: 2px solid rgb(230, 230, 235);
+                padding: 5px;
+                /* top: 2px; */
+                background-color: brown;
+                position: relative;
+                height: 100px;
+                width: 100px;
+                left: 10px
+            }
+        }
+        .div1{
+            border: 2px solid ;
+            width: 380px;
+            height: 360px;
+            background-image: url(../assests/kawasaki.jpg);
+        }
+        @media screen and (min-width:475px) and (max-width:768px){
+            .cl4{
+                border: 2px solid cadetblue;
+                padding: 5px;
+                left: 8px;
+                top: 5px;
+                background-color: yellow;
+                position: relative;
+                height: 100px;
+                width: 100px;
+            }
+            .cl5{
+                border: 2px solid black;
+                padding: 5px;
+                left: 15px;
+                top: 5px;
+                background-color: aqua;
+                position: relative;
+                height: 100px;
+                width: 100px
+            }
+            .cl6{
+                border: 2px solid green;
+                padding: 5px;
+                left: 20px;
+                top: 5px;
+                background-color: aqua;
+                position: relative;
+                height: 100px;
+                width: 100px;
+            }
+            .cl7{
+                border: 2px solid purple;
+                padding: 5px;
+                background-color: crimson;
+                left: 10px;
+                top: 7px;
+                position: relative;
+                height: 100px;
+                width: 100px;
+            }
+            .cl8{
+                border: 2px solid black;
+                padding: 5px;
+                left: 15px;
+                top: 7px;
+                background-color: burlywood;
+                position: relative;
+                height: 100px;
+                width: 100px;
+            }
+            .cl9{
+                border: 2px solid black;
+                padding: 5px;
+                left: 20px;
+                top: 7px;
+                background-color: cornflowerblue;
+                position: relative;
+                height: 100px;
+                width: 100px;
+            }
+            .cl10{
+                border: 2px solid purple;
+                padding: 5px;
+                left: 10px;
+                background-color: blanchedalmond;
+                position: relative;
+                top: 7px;
+                position: relative;
+                height: 100px;
+                width: 100px;
+
+            }
+            .cl11{
+                border: 2px solid black;
+                padding:5px;
+                top: 7px;
+                left: 15px;
+                background-color: rgb(201, 99, 177);
+                position: relative;
+                height: 100px;
+                width: 100px;
+            }
+            .cl12{
+                border: 2px solid black;
+                padding: 5px;
+                left: 20px;
+                top: 7px;
+                background-color: aqua;
+                position: relative;
+                height: 100px;
+                width: 100px;
+            }
+            
+        }
+        .md1{
+            border: 2px solid brown;
+            height: 600px;
+            width: 500px;
+            background-image: url(../assests/sunny2.png);
+        }
+        @media screen and (min-width:770px) and (max-width:1080px){
+            /* .cl_0{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                border: 2px solid black;
+            } */
+            img[class="cl_0"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: aqua;
+            }
+            img[class="cl_1"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: rgb(91, 144, 144);
+            }
+            img[class="cl_2"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: rgb(57, 167, 167);
+            }
+            img[class="cl_3"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: rgb(127, 147, 48);
+            }
+            img[class="cl_4"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: rgb(161, 107, 147);
+            }
+            img[class="cl_5"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: rgb(168, 66, 71);
+            }
+            img[class="cl_6"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: aqua;
+            }
+            img[class="cl_7"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: rgb(94, 69, 156);
+            }
+            img[class="cl_8"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: rgb(160, 116, 214);
+            }
+            img[class="cl_9"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: rgb(95, 121, 18);
+            }
+            img[class="cl_10"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: aqua;
+            }
+            img[class="cl_11"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: aqua;
+            }
+            img[class="cl_12"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: aqua;
+            }
+            img[class="cl_13"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: rgb(15, 40, 40);
+            }
+            img[class="cl_14"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: rgb(222, 172, 34);
+            }
+            img[class="cl_15"]{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                top: 10px;
+                border: 2px solid black;
+                left: 10px;
+                padding: 5px;
+                background-color: rgb(33, 158, 128);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <P>2*2 Pic alloc</P>
+    <div class="div">
+        <img class="cl0" src="../assests/harley.jpg" alt="">
+        <img class="cl1" src="../assests/kawasaki.jpg" alt="">
+        <img class="cl2" src="../assests/royal enfield.jpg" alt="">
+        <img class="cl3" src="../assests/rx.jpeg" alt="">
+    </div>
+    <p>3*3 Pic Alloc</p>
+    <div class="div1">
+        <img class="cl4" src="../assests/sukuna1.jpg" alt="">
+        <img class="cl5" src="../assests/sukuna.jpg" alt="">
+        <img class="cl6" src="../assests/sukuna2.jpg" alt="">
+        <img class="cl7" src="../assests/sukuna1.jpg" alt="">
+        <img class="cl8" src="../assests/sukuna2.jpg" alt="">
+        <img class="cl9" src="../assests/sukuna.jpg" alt="">
+        <img class="cl10" src="../assests/sukuna1.jpg" alt="">
+        <img class="cl11" src="../assests/sukuna.jpg" alt="">
+        <img class="cl12" src="../assests/sukuna2.jpg" alt="">
+    </div>
+    <p>4*4 using pseudo</p>
+    <div class="md1">
+       <img class="cl_0" src="../assests/luffy1.jpg" alt="">
+       <img class="cl_1" src="../assests/luffy2.png" alt="">
+       <img class="cl_2" src="../assests/luffy4.png" alt="">
+       <img class="cl_3" src="../assests/luffy5.png" alt="">
+       <img class="cl_4" src="../assests/luffy5.png" alt="">
+       <img class="cl_5" src="../assests/luffy4.png" alt="">
+       <img class="cl_6" src="../assests/luffy2.png" alt="">
+       <img class="cl_7" src="../assests/luffy1.jpg" alt="">
+       <img class="cl_8" src="../assests/luffy1.jpg" alt="">
+       <img class="cl_9" src="../assests/luffy2.png" alt="">
+       <img class="cl_10" src="../assests/luffy4.png" alt="">
+       <img class="cl_11" src="../assests/luffy5.png" alt="">
+       <img class="cl_12" src="../assests/luffy5.png" alt="">
+       <img class="cl_13" src="../assests/luffy4.png" alt="">
+       <img class="cl_14" src="../assests/luffy2.png" alt="">
+       <img class="cl_15" src="../assests/luffy1.jpg" alt="">
+    </div>
+</body>
+</html>

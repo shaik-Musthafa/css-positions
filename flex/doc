@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        border: 2px solid black;
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        /* column-gap: 10px;
+        justify-content: space-evenly; */
+      }
+
+      .cl0 {
+        /* border: 2px solid black; */
+        height: 100px;
+        width: 150px;
+      }
+      .cl1 {
+        /* border: 2px solid black; */
+        height: 100px;
+        width: 150px;
+      }
+      .cl2 {
+        border: 2px solid black;
+        height: 100px;
+        width: 150px;
+      }
+      .cl3 {
+        border: 2px solid black;
+        height: 100px;
+        width: 150px;
+      }
+      .cl3 {
+        border: 2px solid black;
+        height: 100px;
+        width: 150px;
+      }
+      .cl4 {
+        border: 2px solid black;
+        height: 100px;
+        width: 150px;
+      }
+      .cl5 {
+        border: 2px solid black;
+        height: 100px;
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">
+      <div class="cl0">item1</div>
+     <div class="cl1">item2</div>
+     <div class="cl2">item3</div>
+     <div class="cl3">item4</div>
+     <div class="cl4">item5</div>
+     <div class="cl5">item6<div>
+     </div>
+
+     
+     
+    </div>
+  </body>
+</html>
+fsjbvkfjsv
+copy-1
+-------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            border: 2px solid black;
+            height: 60vh;
+            width: 50vw;
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+            justify-content: space-around;
+            /* row-gap: 10px; */
+            /* justify-content: center; */
+            align-items: center;
+
+        }
+        .md1{
+            /* background-color: lawngreen; */
+            height: 30px;
+            width: 60px;
+            
+        }
+        .cl0{
+            border: 2px solid black;
+            height: 50px;
+            width: 70px;
+            /* padding: 5px; */
+            position: relative;
+            left: 10px;
+            /* margin-left: 10px; */
+        }
+        .cl1,.cl2,.cl3,.cl4,.cl5,.cl6,.cl7,.cl8,.cl9,.cl10,.cl11,.cl12,.cl13,.cl14,.cl15,.cl16,.cl17,.cl18{
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="md">
+        <div class="md1"><img class="cl0" src="../assests/luffy1.jpg" alt=""><p>name_1</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl1" alt=""><p>name_2</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl2" alt=""><p>name_3</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl3" alt=""><p>name_4</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl4"  alt=""><p>name_5</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl5" alt=""><p>name_6</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl6"  alt=""><p>name_7</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl7"  alt=""><p>name_8</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl8"  alt=""><p>name_9</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl9"  alt=""><p>name_10</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl10"  alt=""><p>name_11</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl11"  alt=""><p>name_12</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl12"  alt=""><p>name_13</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl13"  alt=""><p>name_14</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl14"  alt=""><p>name_15</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl15" alt=""><p>name_16</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl16" alt=""><p>name_17</p></div>
+        <div class="md1"><img src="../assests/luffy1.jpg" class="cl17"  alt=""><p>name_18</p></div>
+    </div>
+</body>
+</html>
+
+flex
+-------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            border: 2px solid red;
+            height: 50vh;
+            width: 30vw;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 10px;
+            /* flex-direction: column;/ */
+            /* justify-content: space-around; */
+            justify-content: center;
+            align-items: center;
+            /* row-gap: 10px; */
+
+        }
+        .cl0{
+            border: 2px solid black;
+            height: 100px;
+            width: 150px;
+            background-color: aqua;
+        }
+        .cl1{
+            border: 2px solid black;
+            height: 50px;
+            width: 100px;
+            background-color: aqua;
+        }
+        .cl2{
+            border: 2px solid black;
+            height: 50px;
+            width: 150px;
+            background-color: aqua;
+        }
+        .cl3{
+            border: 2px solid black;
+            height: 50px;
+            width: 100px;
+            background-color: aqua;
+        }
+        .cl4{ border: 2px solid black;
+            height: 50px;
+            width: 100px;
+            background-color: aqua;}
+        .cl5{ border: 2px solid black;
+            height: 50px;
+            width: 100px;
+            background-color: aqua;
+        }
+        .c0{
+            position: relative;
+            border: 2px solid;
+            height: 30px;
+            width: 30px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="md">
+        <div class="cl0"><img class="c0" src="../assests/luffy.png" alt="">
+        <pre>Get more context</pre></div>
+        <div class="cl1">item2</div>
+        <div class="cl2">item3</div>
+        <div class="cl3">item4</div>
+        <div class="cl4">item5</div>
+        <div class="cl5">item6</div>
+        
+    </div>
+</body>
+</html>

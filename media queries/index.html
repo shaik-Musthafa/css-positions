@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (min-width:200px) and (max-width:300px){
+            h1{
+                color: red;
+            }
+            img{
+                border: 2px solid black;
+                background-color: cadetblue;
+            }
+        }
+        @media screen and (min-width:300px) {
+            .img2{
+                border: 2px solid brown;
+                background-color: blanchedalmond;
+                height: 200px;
+                width: 310px;
+            }
+            
+        }
+        @media not screen and (min-width:10px) {
+            .img3{
+                border: 2px solid indigo;
+                background-color: aqua;
+                height: 100px;
+                width: 200px;
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Welcome Onboard </h1> 
+        <img src="../assests/sunny1.png" alt=""><br><br>
+        <img class="img2" src="../assests/sukuna2.jpg" alt="">
+        <br><br>
+        <img class="img3" src="../assests/pxfuel.jpg" alt="">
+    </div>
+</body>
+</html>
